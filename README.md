@@ -3,7 +3,8 @@
 A Python-based SEO audit tool for analyzing technical SEO aspects of websites.
 
 ### Features
-
+i. Technical Check:
+```
 01. Sitemap Check
 02. Robots.txt Check
 03. Loading Time
@@ -13,12 +14,18 @@ A Python-based SEO audit tool for analyzing technical SEO aspects of websites.
 07. Schema Found
 08. Security - Insecure Pages
 09. Pagination
+```
+ii. User Exprience Check
+```
 10. Crawl Mobile Version
 11. AMP (Accelerated Mobile Pages) Support
 12. Viewport Meta Tag Check (Mobile)
 13. Breadcrumb Navigation
 14. Policy (Cookie, Content-Security)
 15. Multi Language Support
+```
+iii. Content Check
+```
 16. Title & Meta
 17. H1, H2, H3 Parent-Child Order
 18. Thin Content
@@ -26,15 +33,21 @@ A Python-based SEO audit tool for analyzing technical SEO aspects of websites.
 20. Canonical Tag
 21. Content Freshness
 22. Content Readability
+```
+iv. Linking Check
+```
 23. 404 Error Check
 24. Internal Linking
 25. External Linking
 26. Follow & Nofollow and Anchor Text
 27. Redirect Check
+```
+v. Images Check
+```
 28. Image Size
 29. Lazy Loading for Images
 30. Image Alt Text Check
-
+```
 
 # i. Technical Check
 ## 01. Sitemap Check
