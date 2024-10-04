@@ -1,6 +1,9 @@
 # Technical SEO SaaS
 
 A Python-based SEO audit tool for analyzing technical SEO aspects of websites.
+```
+mehernigarcu@gmail.com
+```
 
 ### Features
 i. Technical Check:
