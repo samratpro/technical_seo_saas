@@ -30,6 +30,7 @@ ii. User Exprience Check
 iii. Content Check
 ```
 16. Title & Meta
+16.1 Post Data & Update Date
 17. H1, H2, H3 Parent-Child Order
 18. Thin Content
 19. Duplicate Content
