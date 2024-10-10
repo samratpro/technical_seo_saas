@@ -13,7 +13,23 @@ i. Domain Check
 - Link
 - Top Linking Domain
 - Ranking Keywords
+- Subdomain Finder
+- DNS Report
+- indexed pages
 ```
+```
+https://mxtoolbox.com/
+https://www.link-assistant.com/free-tools/domain-authority-checker-tool.html
+https://moz.com/domain-analysis
+https://seomator.com/free-domain-authority-checker
+https://seomator.com/free-backlink-checker-tool
+https://seranking.com/domain-trust-checker.html?
+https://www.dnscolos.com/free-dns-report.html
+https://www.clickminded.com/domain-authority-checker/
+https://www.whois.com/whois
+who.is
+https://pro.similarweb.com/#/digitalsuite/websiteanalysis/overview/website-performance/*/999/1m?webSource=Total&key=bluearrayacademy.com
+``
 i. Technical Check:
 ```
 01. Sitemap Check
@@ -89,7 +105,7 @@ for site in site_list:
                                     args=args,
                                      proxy={
                                     "server": "http://gw.dataimpulse.com:823",  # Your rotating proxy server
-                                    "username": "5505791abd",  # Your proxy username   0cd522901c
+                                    "username": "5505791abd",  # Your proxy username   0cd522901c__cr.us
                                     "password": "f5d3919"  # Your proxy password   c504d8fc9
                                 })
         context = browser.new_context(no_viewport=True)
@@ -97,6 +113,7 @@ for site in site_list:
         page.goto(f'https://moz.com/domain-analysis?site={site}', timeout=60000) # 1 min
         sleep(5)
         browser.close()
+
 ```
 # i. Technical Check
 ## 01. Sitemap Check
