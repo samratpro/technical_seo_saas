@@ -6,6 +6,14 @@ mehernigarcu@gmail.com
 ```
 
 ### Features
+i. Domain Check
+```
+- who.is (Register & Expire)
+- DA
+- Link
+- Top Linking Domain
+- Ranking Keywords
+```
 i. Technical Check:
 ```
 01. Sitemap Check
@@ -53,6 +61,43 @@ v. Images Check
 30. Image Alt Text Check
 ```
 
+## i Domain
+```py
+from playwright.sync_api import sync_playwright
+from time import sleep
+
+args=[
+     '--disable-blink-features=AutomationControlled',
+     '--start-maximized',
+     '--disable-infobars',
+     '--no-sandbox',
+     '--disable-dev-shm-usage',
+     '--disable-extensions',
+     '--remote-debugging-port=0',
+     '--disable-web-security',
+     '--enable-features=WebRTCPeerConnectionWithBlockIceAddresses',
+     '--force-webrtc-ip-handling-policy=disable_non_proxied_udp',
+ ]
+
+path = 'chrome-win/chrome.exe'
+
+site_list = ['who.is','github.com','shop.torklaw.com','bluearrayacademy.com']
+for site in site_list:
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False, 
+                                    executable_path=path,
+                                    args=args,
+                                     proxy={
+                                    "server": "http://gw.dataimpulse.com:823",  # Your rotating proxy server
+                                    "username": "5505791abd",  # Your proxy username   0cd522901c
+                                    "password": "f5d3919"  # Your proxy password   c504d8fc9
+                                })
+        context = browser.new_context(no_viewport=True)
+        page = context.new_page()
+        page.goto(f'https://moz.com/domain-analysis?site={site}', timeout=60000) # 1 min
+        sleep(5)
+        browser.close()
+```
 # i. Technical Check
 ## 01. Sitemap Check
 ```py
