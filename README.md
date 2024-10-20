@@ -36,7 +36,7 @@ i. Technical Check:
 02. Robots.txt Check
 03. Loading Time
 04. Page Size
-05. JS Blocking
+05. JS Blocking  (Pre-render - Re-render)
 06. HTML Structure Error
 07. Schema Found
 08. Security - Insecure Pages
