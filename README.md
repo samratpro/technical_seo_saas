@@ -65,8 +65,8 @@ iii. Content Check
 iv. Linking Check
 ```
 23. 404 Error Check
-24. Internal Linking
-25. External Linking
+24. Internal Linking (Do follow/No follow)
+25. External Linking (Do follow/No follow)
 26. Follow & Nofollow and Anchor Text
 27. Redirect Check
 ```
