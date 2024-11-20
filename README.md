@@ -68,7 +68,7 @@ iv. Linking Check
 24. Internal Linking (Do follow/No follow)
 25. External Linking (Do follow/No follow)
 26. Follow & Nofollow and Anchor Text
-27. Redirect Check
+27. Redirect Check (Redirect time)
 ```
 v. Images Check
 ```
