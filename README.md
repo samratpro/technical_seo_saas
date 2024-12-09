@@ -15,6 +15,7 @@ i. Domain Check
 - Ranking Keywords
 - Subdomain Finder
 - DNS Report
+- Hosting IP reputation
 - indexed pages
 ```
 ```
@@ -34,7 +35,7 @@ i. Technical Check:
 ```
 01. Sitemap Check
 02. Robots.txt Check
-03. Loading Time
+03. Loading Time (https://developers.google.com/speed/docs/insights/v5/get-started)
 04. Page Size
 05. JS Blocking  (Pre-render - Re-render)
 06. HTML Structure Error
