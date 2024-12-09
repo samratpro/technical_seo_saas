@@ -1,4 +1,8 @@
 # Technical SEO SaaS
+https://github.com/joshcarty/google-searchconsole
+https://developers.google.com/speed/docs/insights/v5/get-started
+https://www.abuseipdb.com/api.html
+
 
 A Python-based SEO audit tool for analyzing technical SEO aspects of websites.
 ```
