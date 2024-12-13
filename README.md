@@ -49,6 +49,7 @@ i. Technical Check:
 ```
 ii. User Exprience Check
 ```
+10. favicon check
 10. Crawl Mobile Version
 11. AMP (Accelerated Mobile Pages) Support
 12. Viewport Meta Tag Check (Mobile)
