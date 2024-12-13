@@ -13,14 +13,14 @@ mehernigarcu@gmail.com
 i. Domain Check
 ```
 - who.is (Register & Expire)
-- DA
+- DA 
 - Link
 - Top Linking Domain
 - Ranking Keywords
 - Subdomain Finder
-- DNS Report
-- Hosting IP reputation
-- indexed pages
+- DNS Report - https://who.is/dns/gopjobs.gop
+- Hosting IP reputation - https://www.abuseipdb.com/check/172.67.197.142
+- indexed pages : 
 ```
 ```
 https://mxtoolbox.com/
@@ -34,7 +34,7 @@ https://www.clickminded.com/domain-authority-checker/
 https://www.whois.com/whois
 who.is
 https://pro.similarweb.com/#/digitalsuite/websiteanalysis/overview/website-performance/*/999/1m?webSource=Total&key=bluearrayacademy.com
-``
+```
 i. Technical Check:
 ```
 01. Sitemap Check
